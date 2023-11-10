@@ -1,0 +1,74 @@
+input {
+    width: 100%;
+    text-align: left;
+}
+table {
+    width: 100%;
+    background-color: grey;
+    padding: 1px;
+	margin-bottom:5px;
+}
+tr{
+    background-color: white;
+    text-align: center;
+}
+td{
+    text-align: left;
+}
+td#header{
+    text-align: center;
+    width: 20%;
+}
+
+div.loading2{
+    margin: auto;
+    width: 100%; 
+    text-align: center;  
+}
+
+#target_url, #max_depth, #max_thread, #git_branch{
+    font-size: 13px;
+}
+
+.collapsible{
+    cursor: pointer;
+    outline: none;
+    text-align: left;
+    border: none;
+    width: 100%;
+    background-color: white;
+    padding-left: 0px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333333;
+    padding-top: 0;
+	padding-bottom: 10px;
+	margin-top: 5px;
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	line-height: 1.1;
+}
+
+.collapsible:focus{
+    outline: none;
+}
+
+button.collapsible::before{
+    content: '\25BD';
+    color: #333333;
+    font-weight: bold;
+    font-size: 15px;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+button.collapsible.active::before{
+    content: '\25B3';
+	color: #333333;
+}
+
+.hidden_content{
+    display: none;
+    overflow: hidden;
+	margin-bottom: 10px;
+}
+
